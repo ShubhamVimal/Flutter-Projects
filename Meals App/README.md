@@ -1,5 +1,5 @@
 # Meals App
-Developed a personal expenses app using Flutter and Dart.
+Developed a Meals App using Flutter and Dart.
 
 # Screenshots
 ![](screenshots/Screenshot_(1).png)
