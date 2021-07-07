@@ -1,5 +1,6 @@
 # Weather App
 Developed a Weather App using Flutter and Getx
+
 API used -: https://www.weatherapi.com/
 
 # Packages used :
