@@ -26,7 +26,7 @@ class GetWeatherData {
   static Future<WeatherData?> searchWeatherData({required String city}) async {
     try {
       var response = await client.get(
-          'http://api.weatherapi.com/v1/forecast.json?key=9028ee0c1281479d812144856212406&q=$city&days=3&aqi=yes&alerts=no');
+          'http://api.weatherapi.com/v1/forecast.json?key={YOUR_API_KEY}&q=$city&days=3&aqi=yes&alerts=no');
       if (response.statusCode == 200) {
         var jsonData = response.data;
 
