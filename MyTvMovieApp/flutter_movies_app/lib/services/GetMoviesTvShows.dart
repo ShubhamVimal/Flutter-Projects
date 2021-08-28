@@ -10,7 +10,7 @@ import 'package:flutter_movies_app/model/tv/TvShowsModel.dart';
 import 'package:http/http.dart' as http;
 
 class GetMoviesTvShows {
-  static const String API_KEY = '5a2c86428f06c1fab33fa9379b2da6a4';
+  static const String API_KEY = 'YOUR_TMDB_API_KEY';
 
   static Future<MoviesModel?> getMovies(
       {required String type, required int page}) async {
