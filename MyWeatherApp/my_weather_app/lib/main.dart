@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:my__weather_app/screens/HomePageNew.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(MyApp());
 }
 
